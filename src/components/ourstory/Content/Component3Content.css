@@ -1,0 +1,49 @@
+.main{
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+    display: flex;
+}
+
+
+.div1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    
+    margin-left: 20px;
+    border-radius: 50%;
+   
+  
+  }
+
+  .div1>img{
+    display: block;
+    height:170px;
+    width:170px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    border-radius:50%;
+  }
+ 
+  .div2 {
+      height: 170px;
+      width: 100px;
+      /* background-color: blueviolet; */
+      margin-left: 20px;
+      border-radius: 50%;
+      background-color: #F55189;
+      
+    }
+    .div3 {
+      height: 170px;
+      width: 100px;
+      /* background-color: yellow; */
+      margin-left: 10px;
+     background-color: #34A245;
+      border-radius: 50%;
+      
+    }

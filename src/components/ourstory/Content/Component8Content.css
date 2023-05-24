@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,200;0,700;1,300&family=Roboto:wght@500&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300;400&family=Unbounded:wght@600&display=swap');
+
+
+.Component8Content{
+    display:flex;
+    height:550px;
+    font-family: 'Assistant', sans-serif;
+    background-color: whitesmoke;
+}
+
+.heading{
+    font-size: 50px;;
+    font-weight: 500;
+    margin-left:2rem;
+}
+
+#content_of_id{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left:10rem;
+
+
+}
+
+#content_of_id>h3{
+    font-size: 28px;
+}
+
+#content_of_id>p
+{
+  font-size: 18px;
+  font-weight: bold;
+
+}
+#content_of_id>a>button{
+    /* width:100px; */
+    padding: 8px 32px 10px;
+    color:#34A245;
+    border:1px solid #34A245;
+    background-color: white;
+    font-weight: 600;
+    border-radius:14px;
+    cursor:pointer;
+}
+
+#content_of_box2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:4rem;
+    margin-left:10rem;
+}
+
+#content_of_box2>h3{
+    font-size: 28px;
+}
+ 
+#content_of_box2>p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#content_of_box2>a>button{
+    padding: 8px 32px 10px;
+   border-style: none;
+    color:#34A245;
+    border:1px solid #34A245;
+    background-color: white;
+    font-weight: 600;
+    border-radius:14px;
+    cursor:pointer;
+
+}
+
+

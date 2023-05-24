@@ -1,0 +1,28 @@
+.Component11Content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:2rem;
+    /* background-color: whitesmoke; */
+
+}
+
+#image-medium>img{
+   height:40px;
+}
+
+#span{
+    
+    margin-top:2rem;
+}
+
+#span>a>span{
+    margin:1.4rem;
+    color:#000000;
+}
+
+
+
+
+

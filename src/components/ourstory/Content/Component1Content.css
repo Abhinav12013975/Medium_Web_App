@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=EB+Garamond:wght@600&family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,200;1,300&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300;400&family=Unbounded:wght@600&display=swap');
+
+
+.Component1Content{
+    display:flex;
+    align-items: center;
+    height:250px;
+    /* border: 1px solid green; */
+    background-color: whitesmoke;
+}
+
+.component_content{
+    display:flex;
+    align-items: center;
+    /* border:1px solid black; */
+    font-size: 40px;
+    width:100%;
+    font-family: 'Assistant', sans-serif;
+    /* margin:73px 0px 0px;
+    padding:80px 0px; */
+    margin-left:4rem;
+    margin-right:4rem;
+}
+
+
+.component_content>h1{
+    margin-left:8.2rem;
+}
+
+.component_content>div>img{
+    margin-top:1.2rem;
+    margin-left:0.8rem;
+}

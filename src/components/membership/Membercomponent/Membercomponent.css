@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,300&family=Roboto:wght@500&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300;400&family=Unbounded:wght@600&display=swap');
+
+
+#MembershipComponent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid green;
+    height:500px;
+    background-color: rgb(68,121,255);
+}
+
+#content_of_component>h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:100px;
+    color:#ffffff;
+
+}
+
+#content_of_component>p{
+    display:flex;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color:#ffffff;
+    margin-top:-2rem;
+   
+}
+#content_of_component>a>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:9px 32px 10px;
+    border-radius:12px;
+    font-size: 18px;
+    background-color: #ffffff;
+    margin-left:19rem;
+    margin-top:2rem;
+    border-style: none;
+    border:1px solid #ffffff;
+    cursor:pointer;
+    color:#000000;
+    text-decoration: none;
+}
+
+#content_of_component>button:hover{
+    background-color:rgb(68,121,255); 
+
+}
+
+

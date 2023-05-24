@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=EB+Garamond:wght@600&family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,200;1,300&family=Roboto:wght@500&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300;400&family=Unbounded:wght@600&display=swap");
+
+.Component2Content {
+  display: flex;
+  /* border: 1px solid green; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd1b9;
+}
+
+.content_ctn {
+  /* border: 1px solid black; */
+  margin-top: 1rem;
+  font-size: 40px;
+  font-family: "Assistant", sans-serif;
+  color: #000000;
+}
+
+.content_ctn > p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.photo_png {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 80px;
+  /* border: 1px solid black; */
+  margin-top: 1rem;
+}
+/* 
+.auth_photo>p>img{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+} */
+
+/* .details_image{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    margin-top:2rem;
+}
+
+.auth_photo>span{
+   display:flex; 
+   justify-content: space-between;
+} */
+
+.inside_map {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 320px;
+  margin: 1rem;
+}
+.auth_image_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  /* border: 1px solid green; */
+}
+
+.auth_name {
+  margin-top: -1.3rem;
+  margin-left: -0.7rem;
+  color:#000000;
+  font-size: 22px;
+}
+
+.auth_name > h4 {
+  text-decoration: none;
+}
+
+.photo_png > a {
+  text-decoration: none;
+}
